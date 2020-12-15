@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black2"
+    tools:context=".FurtherAnalysis">
+
+    <TextView
+        android:id="@+id/text_further_analysis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_light"
+        android:text="FURTHER ANALYSIS"
+        android:textColor="#ebebeb"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <ImageView
+        android:id="@+id/imageViewFA"
+        android:layout_width="229dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintVertical_bias="0.098"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/edit_symptom"
+        android:layout_width="330dp"
+        android:layout_height="122dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="top"
+        android:hint="ENTER ANY INFORMATION FOR THE DOCTOR HERE..."
+        android:textColorHint="#808080"
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:textColor="#ebebeb"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.683" />
+
+    <EditText
+        android:id="@+id/edit_email"
+        android:layout_width="330dp"
+        android:layout_height="46dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="top"
+        android:hint="JohnDoe@Gmail.com"
+        android:textColorHint="#808080"
+        android:inputType="textEmailAddress"
+        android:padding="15dp"
+        android:textColor="#ebebeb"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/button_send"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_border_solid"
+        android:fontFamily="@font/montserrat_light"
+        android:text="SEND"
+        android:textColor="#ebebeb"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.810" />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/montserrat_light"
+        android:text="CANCEL"
+        android:textColor="#FF8C00"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.890" />
+</androidx.constraintlayout.widget.ConstraintLayout>

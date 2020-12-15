@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "TCM_Tongue_Diagnosis"
