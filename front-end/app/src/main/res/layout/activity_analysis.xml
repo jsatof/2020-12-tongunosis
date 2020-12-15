@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black2"
+    tools:context=".Analysis">
+
+    <ImageView
+        android:id="@+id/imageViewA"
+        android:layout_width="229dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_light"
+        android:text="ANALYSIS"
+        android:textColor="#ebebeb"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/diagnosis"
+        android:layout_width="270dp"
+        android:layout_height="160dp"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="fill_horizontal"
+        android:padding="10dp"
+        android:text="Once functioning, the analysis from the machine learning algorithm would go here underneath the photo."
+        android:textColor="#ebebeb"
+        android:textAllCaps="true"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.610" />
+
+    <TextView
+        android:id="@+id/further_diagnosis_paragraph"
+        android:layout_width="270dp"
+        android:layout_height="160dp"
+        android:layout_marginTop="18dp"
+        android:fontFamily="@font/montserrat_light"
+        android:gravity="end"
+        android:padding="10dp"
+        android:text="If you would like to consult a doctor specialized in TCM Diagnosis, tap the button below to get started. If not, simply return home."
+        android:textAllCaps="true"
+        android:textColor="#FF8C00"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.780" />
+
+    <Button
+        android:id="@+id/button_further_analysis"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_border_solid"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Further Analysis"
+        android:textColor="#ebebeb"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.810" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:background="@drawable/button_border"
+        android:fontFamily="@font/montserrat_light"
+        android:text="Return Home"
+        android:textColor="#FF8C00"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.890" />
+</androidx.constraintlayout.widget.ConstraintLayout>
