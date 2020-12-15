@@ -1,0 +1,12 @@
+
+Things To Do:
+
+    - Process Lui's samples
+    - Create masks for Lui's samples
+    - Add samples to training
+    - Retrain model
+    - Test results
+
+    - Connect Flask server and Apache Daemon
+
+
